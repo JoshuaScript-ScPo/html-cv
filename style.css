@@ -11,7 +11,7 @@ things_i_want_to_improve
   body
   {
 
-      background-color: #ffffff;
+      background-color: #fcfcfc;
       overflow-x: hidden;
       margin: 0;
       padding: 0;
@@ -26,13 +26,14 @@ things_i_want_to_improve
   h1
   {
       font-family: Garamond, serif;
-      font-weight: 900;
       font-size: 4em;
       letter-spacing: -1.5px;
       font-weight: 550;
       margin-bottom: -1%;
       text-align: left;
-      font-size: 2.3rem; 
+      display: flex;
+      justify-content: space-between;
+      position: relative;
   }
   h2
   {
@@ -48,8 +49,8 @@ things_i_want_to_improve
     text-decoration: none;
     font-size: 11px;
     font-family: Times, serif;
-    font-size: 2.8rem;
-    padding-left: 10px;
+    font-size: 3.3rem;
+    padding-left: 25px;
 }
   #lolien
 {
@@ -194,6 +195,13 @@ things_i_want_to_improve
 {
     color: #1be65f
 }
+.halala
+{  background-color: white; 
+    color: black; 
+    padding: 0.09em; 
+    border-radius: 1px;
+}
+
 .mailmepls
 {
     color: #e6731b
@@ -262,13 +270,6 @@ section.active {
     transition: max-height 1s ease;
 }
 
-.icon {
-    font-size: 16px;
-    margin-left: 5px;
-    cursor: pointer;
-    transition: transform 1s ease;
-}
-
 .toggle-section {
     border-bottom: 1px solid black; 
     padding-bottom: 30px; 
@@ -320,8 +321,8 @@ padding-right: 120px;
 margin-bottom: -100px;
 padding-top: 30px;
 opacity: 0;  
-animation: fadeIn 6s forwards; 
-animation-delay: 2s; 
+animation: fadeIn 2s forwards; 
+animation-delay: 5s; 
 }
 
 @keyframes fadeIn {
@@ -338,7 +339,7 @@ animation-delay: 2s;
     padding: 5px 10px;
     background-color: #e6731b;  
     color: #ffffff;  
-    font-size: 17px;
+    font-size: 15px;
     border-radius: 12px; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  
     text-align: center;
@@ -376,22 +377,11 @@ animation-delay: 2s;
     position: relative;
     display: inline-block;
     cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.toggle-section h1::after {
-    content: '';
-    position: absolute;
-    width: 0;
-    height: 6px; 
-    bottom: -3px; 
-    left: 0;
-    background-color: #ff8120;
-    transition: width 0.3s ease; 
-}
-
-.toggle-section h1:hover::after {
-    width: 100%
-}
 .toggle-text {
     color: #696969;
     font-size: 20px;
@@ -442,3 +432,81 @@ animation-delay: 2s;
     padding: 1em;
 }
 
+#icon1
+{
+    font-weight: 500;
+    font-size: 0.8em;
+    margin-left: auto;
+}
+#icon2
+{
+    font-weight: 500;
+    font-size: 0.8em;
+    margin-left: auto;
+}
+#icon3
+{
+    font-weight: 500;
+    font-size: 0.8em;
+    margin-left: auto;
+}
+#icon4
+{
+    font-weight: 500;
+    font-size: 0.8em;
+    margin-left: auto;
+}
+#icon5
+{
+    font-weight: 500;
+    font-size: 0.8em;
+    margin-left: auto;
+}
+table {
+    border-collapse: collapse;
+    width: 90%;
+    margin: 20px auto;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+caption {
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-bottom: 18px;
+    text-align: center;
+}
+
+th {
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+td {
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 15px;
+}
+
+td:nth-child(1) {
+    font-weight: bold;
+}
+
+.teal {
+    color: teal;
+}
+
+.goldenrod {
+    color: goldenrod;
+}
+
+.cornflowerblue {
+    color: cornflowerblue;
+}
+
+.lightcoral {
+    color: lightcoral;
+}
